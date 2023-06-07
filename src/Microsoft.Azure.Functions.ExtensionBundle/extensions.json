@@ -184,5 +184,15 @@
     "Version": "4.3.2",
     "name": "SystemPrivateUri",
     "bindings": []
+  },
+  {
+    "id": "Microsoft.Azure.WebJobs.Extensions.Redis",
+    "majorVersion": "0",
+    "name": "Redis",
+    "bindings": [
+      "RedisPubSubTrigger",
+      "RedisStreamTrigger",
+      "RedisListTrigger"
+    ]
   }
 ]
